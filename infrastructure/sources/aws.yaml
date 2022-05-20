@@ -1,7 +1,22 @@
 apiVersion: source.toolkit.fluxcd.io/v1beta2
 kind: HelmRepository
 metadata:
-  name: aws
+  name: eks-helm-charts
 spec:
   interval: 30m
   url: https://aws.github.io/eks-charts
+
+---
+
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: eks-git-charts
+  namespace: flux-system
+spec:
+  interval: 1m0s
+  ref:
+    tag: v0.0.91
+  secretRef:
+    name: flux-system
+  url: https://github.com/aws/eks-charts.git
