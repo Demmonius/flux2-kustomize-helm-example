@@ -14,9 +14,9 @@ spec:
     name: kube-prometheus-stack-grafana
     namespace: monitoring
   interval: 1h0m0s
-  path: ./manifests/monitoring/kube-prometheus-stack
+  path: ./apps/base/monitoring/kube-prometheus-stack
   prune: true
   sourceRef:
     kind: GitRepository
-    name: monitoring
+    name: flux-system
   timeout: 2m0s
