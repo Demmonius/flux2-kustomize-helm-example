@@ -16,6 +16,7 @@ metadata:
 spec:
   interval: 1m0s
   ref:
+    branch: master
     tag: v0.0.91
   secretRef:
     name: flux-system
