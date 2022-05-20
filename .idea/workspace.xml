@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="547c12f4-b4a6-4f00-b351-fac20dd75075" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/clusters/staging/aws-loadbalancing-crds.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/infrastructure/sources/aws.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/sources/aws.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +48,7 @@
       <option name="presentableId" value="Default" />
       <updated>1653051107867</updated>
       <workItem from="1653051109039" duration="382000" />
-      <workItem from="1653051500354" duration="5033000" />
+      <workItem from="1653051500354" duration="5205000" />
     </task>
     <servers />
   </component>
