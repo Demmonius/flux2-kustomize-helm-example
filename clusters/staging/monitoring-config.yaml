@@ -5,7 +5,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 1h0m0s
-  path: ./manifests/monitoring/monitoring-config
+  path: ./apps/base/monitoring/monitoring-config
   prune: true
   sourceRef:
     kind: GitRepository
