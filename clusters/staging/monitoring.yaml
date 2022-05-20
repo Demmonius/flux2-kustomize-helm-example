@@ -5,7 +5,7 @@ metadata:
   namespace: flux-system
 spec:
     dependsOn:
-      - name: apps
+    - name: apps
   healthChecks:
   - kind: Deployment
     name: kube-prometheus-stack-operator
